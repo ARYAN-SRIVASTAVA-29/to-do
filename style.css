@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* max-width: 600px; */
+    margin:  auto;
+    padding: 20px;
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: #131212;
+    border-radius: 5px;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tab {
+      padding: 10px;
+    text-align: center;
+    background-color: #b5afaf6e;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    color: white;
+    width: 450px;
+margin-right: 5%;
+margin-left: 5%;
+font-size: 25px;
+}
+
+.tab:hover {
+    background-color: #9f9898e5;
+}
+
+.task-container {
+    display: flex;
+}
+
+.task-list {
+    flex-grow: 1;
+    min-height: 600px;
+    padding: 10px;
+    background-color:#4f4c4c70;
+    border-radius: 5px;
+    margin-right: 5%;
+    width: 450px;
+    margin-left: 5%;
+  }
+
+.task {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #555353;
+    border-radius: 5px;
+    cursor: move;
+    color: #f0f0f0;
+    list-style: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.task:hover {
+    background-color: #807e7e;
+}
+
+form {
+    display: flex;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    flex-grow: 0.99;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 5%;
+    margin-top: 2%;
+    height: 30px;
+    font-size: 20px;
+}
+
+input[type="text"]:focus{
+    outline: none;
+}
+
+button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-right: 4.5%;
+    border: none;
+    background-color: #6B716B;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 2%;
+}
+
+button:hover {
+    background-color: #555353;
+}
